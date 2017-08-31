@@ -1,0 +1,33 @@
+---
+layout: page
+title: Chris Webster | Galleries
+---
+    <section id="galleries" class="light">
+    <section id="thumbnail" class="light">
+    <div class="v-space-20"></div>
+    <div class="container">
+    <div class="p-header">
+		<h2 id="p-name" class="hbg-d">Galleries.</h2>
+    <span id="close" class="back"><i class="fa fa-angle-double-left"></i>&nbsp;&nbsp;BACK</span>
+		</div>
+    <div class="v-space-25"></div>
+    <ul id="tp-grid" class="tp-grid">
+      {% assign featured_images = (site.gallery | where: "featured", "true") %}
+      {% for image in featured_images %}
+        <li data-pile="{{ image.image_title }}." class="preview">
+              <a href="/{{ image.image_page }}"><img src="/img/collections/more.png" alt="{{ image.image_title }}"></a>
+        </li>
+		    <li data-pile="{{ image.image_title }}." class="preview">
+              <img src="{{ image.image_512 }}" alt="{{ image.image_title }}">
+		    </li>
+      {% endfor %}
+      {% assign collapse_feature = (site.gallery | where: "featured", "collapse") %}
+      {% for image in collapse_feature %}
+      <li data-pile="{{ image.image_title }}." class="preview">
+            <img src="{{ image.image_512 }}" alt="{{ image.image_title }}">
+      </li>
+      {% endfor %}
+		</ul>
+    </div>
+    </section>
+  </section>

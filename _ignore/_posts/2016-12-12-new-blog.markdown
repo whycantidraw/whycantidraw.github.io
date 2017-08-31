@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "New Blog, New Website, New CMS!"
+date:   2016-12-12 23:30:00 +0800
+categories: jekyll development blog
+---
+
+So. Fuck my life. I decided to port my static, single page website over to Jekyll, adding the ability to craft everything in a very unix-esque dynamic website on my local development end, while exporting a static website to my host. This has added blog posting and dynamic image galleries, with everything built in a modular fashion with very JSON-esque descriptor files. I'm still porting the CSS to SASS and JS to CoffeeScript (unnecessary, but there's a lot of redundant and unused code left over now), but for the most part we're nearly there. It's been great / / ~ ~ e n d m e ~ ~ / /.
+For the record, I'm still trying to work out how to markdown so, there's that too.

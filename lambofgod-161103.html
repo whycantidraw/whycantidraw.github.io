@@ -1,0 +1,22 @@
+---
+layout: page
+title: Chris Webster | Galleries | Lamb of God
+---
+    <section id="thumbnail" class="light">
+    <div class="v-space-20"></div>
+    <div class="container">
+    <div class="p-header">
+		<h2 id="p-name" class="hbg-d">Galleries.</h2>
+    <span id="close" class="back"><i class="fa fa-angle-double-left"></i>&nbsp;&nbsp;BACK</span>
+		</div>
+    <div class="v-space-25"></div>
+    <ul id="tp-grid" class="tp-grid">
+      {% assign gallery_images = (site.gallery | where: "image_title", "Lamb of God") %}
+      {% for image in gallery_images %}
+		    <li>
+              <img src="{{ image.image_512 }}" alt="{{ image.image_title }}">
+		    </li>
+      {% endfor %}
+		</ul>
+    </div>
+    </section>
