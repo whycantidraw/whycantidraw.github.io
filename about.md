@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Just a filthy casual killing time while MDT builds out a new image.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+[Photography](http://chriswebster.coffee)
+[Social](http://instagram.com/whycantidraw)
+[Cosplay](http://chriswebster.moe)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[hello(at)chriswebster.coffee](mailto:hello@chriswebster.coffee)
