@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Printer Hell"
+date:
 ---
 "I don't have a printer"
 "... Yes you do?"
