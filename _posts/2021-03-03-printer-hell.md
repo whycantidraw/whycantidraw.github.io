@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Printer Hell"
-date:
+date: 2021-03-03
 ---
 "I don't have a printer"
 "... Yes you do?"
